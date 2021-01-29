@@ -3,4 +3,4 @@ node_modules
 *.js.map
 *.js
 !libs
-*/**/binance/config.ts
+platform/binance/config.ts
