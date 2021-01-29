@@ -6,7 +6,8 @@
   "author": "LhrAlander<AlanderLt@163.com>",
   "license": "MIT",
   "scripts": {
-    "tsc:watch": "tsc --watch",
+    "build": "tsc",
+    "watch": "tsc --watch",
     "start": "node index.js",
     "run": "pm2 start index.js && pm2 log",
     "stop": "pm2 stop index"
