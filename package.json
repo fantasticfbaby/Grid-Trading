@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "tsc:watch": "tsc --watch",
-    "start": "node index.js"
+    "start": "node index.js",
+    "run": "pm2 start index.js && pm2 log",
+    "stop": "pm2 stop index"
   },
   "devDependencies": {
     "@types/node": "^14.14.20"
